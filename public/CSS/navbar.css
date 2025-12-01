@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background: #D8C9FF;
+    z-index: 1000;
+}
+
+nav {
+    font-weight: bold;
+    padding: 15px 20px;
+    color: #4A2E7F;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    font-size: 1.8rem;
+    font-family: "Dancing Script", cursive;
+    color: #2C1D50;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #8C6BFF;
+}
+
+
+/* ----------NAV TOGGLE BUTTON ---------- */
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 25px;
+    height: 18px;
+    justify-content: space-between;
+}
+
+.nav-toggle span {
+    height: 3px;
+    width: 100%;
+    background: #4A2E7F;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+    @media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease;
+    background-color: #CDB8FF;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    max-height: 300px;
+    opacity: 1;
+    padding: 1rem 0;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-button {
+    display: none;
+  }
+  .cart-link{
+    display: block;
+  }
+
+  /* toggle animation */
+  .nav-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+  }
+  .nav-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .nav-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+  }
+}
