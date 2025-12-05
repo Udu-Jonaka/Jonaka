@@ -1,5 +1,308 @@
 /* ========== Responsive Design ========== */
+/* ========== Large Screen Responsive Design (1024px+) ========== */
 
+/* Desktop Large (1440px and up) */
+@media (min-width: 1440px) {
+    .hero {
+        min-height: 700px;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-btn {
+        padding: 18px 40px;
+        font-size: 1.2rem;
+    }
+
+    /* About Section */
+    #about {
+        padding: 100px 50px;
+    }
+
+    .about {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .about-text {
+        padding-right: 80px;
+        font-size: 1.15rem;
+    }
+
+    .about-text p {
+        line-height: 1.8;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    /* Skills Section */
+    #skills {
+        padding: 100px 50px;
+    }
+
+    .skills-container {
+        max-width: 1400px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+    }
+
+    .skill-category {
+        padding: 40px;
+    }
+
+    .skill-category h3 {
+        font-size: 1.7rem;
+    }
+
+    .skill-item {
+        padding: 12px;
+    }
+
+    .skill-item span {
+        font-size: 1.1rem;
+    }
+
+    /* Portfolio Section */
+    #portfolio {
+        padding: 100px 50px;
+    }
+
+    .portfolio-container {
+        max-width: 1400px;
+    }
+
+    .portfolio-card {
+        max-width: 1100px;
+    }
+
+    .portfolio-img {
+        height: 500px;
+    }
+
+    .portfolio-content {
+        padding: 40px;
+    }
+
+    .portfolio-content h3 {
+        font-size: 2.3rem;
+    }
+
+    .portfolio-content p {
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+
+    .tech-tag {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .portfolio-btn {
+        padding: 14px 30px;
+        font-size: 1.05rem;
+    }
+
+    /* Contact Section */
+    .contact-section {
+        padding: 100px 50px;
+    }
+
+    .contact-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .info-item {
+        max-width: 600px;
+        padding: 20px 30px;
+    }
+
+    .info-item i {
+        font-size: 2rem;
+    }
+
+    .info-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .info-item p {
+        font-size: 1.05rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 60px 50px 30px;
+    }
+
+    .footer-content {
+        max-width: 1400px;
+    }
+
+    .footer-top {
+        gap: 80px;
+    }
+
+    .footer-brand h3 {
+        font-size: 2rem;
+    }
+
+    .footer-brand span {
+        font-size: 1.7rem;
+    }
+
+    .footer-brand p {
+        font-size: 1.1rem;
+    }
+
+    .footer-column h4 {
+        font-size: 1.3rem;
+    }
+
+    .footer-column ul li a {
+        font-size: 1.05rem;
+    }
+
+    .footer-socials a {
+        width: 50px;
+        height: 50px;
+        font-size: 1.4rem;
+    }
+}
+
+/* Ultra Wide (1920px and up) */
+@media (min-width: 1920px) {
+    .hero {
+        min-height: 800px;
+    }
+
+    .hero h1 {
+        font-size: 4.5rem;
+    }
+
+    .hero-btn {
+        padding: 20px 45px;
+        font-size: 1.3rem;
+    }
+
+    /* About Section */
+    .about {
+        max-width: 1600px;
+    }
+
+    .about-text {
+        font-size: 1.25rem;
+        padding-right: 100px;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+
+    /* Skills Section */
+    .skills-container {
+        max-width: 1600px;
+    }
+
+    .skills-grid {
+        gap: 50px;
+    }
+
+    .skill-category {
+        padding: 50px;
+    }
+
+    /* Portfolio Section */
+    .portfolio-container {
+        max-width: 1600px;
+    }
+
+    .portfolio-card {
+        max-width: 1300px;
+    }
+
+    .portfolio-img {
+        height: 600px;
+    }
+
+    .portfolio-content {
+        padding: 50px;
+    }
+
+    .portfolio-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .portfolio-content p {
+        font-size: 1.3rem;
+    }
+
+    /* Contact Section */
+    .info-item {
+        max-width: 700px;
+        padding: 25px 35px;
+    }
+
+    /* Footer */
+    .footer-content {
+        max-width: 1600px;
+    }
+
+    .footer-top {
+        gap: 100px;
+    }
+}
+
+/* 4K and Beyond (2560px and up) */
+@media (min-width: 2560px) {
+    .hero {
+        min-height: 1000px;
+    }
+
+    .hero h1 {
+        font-size: 5.5rem;
+    }
+
+    .about {
+        max-width: 2000px;
+    }
+
+    .about-text {
+        font-size: 1.4rem;
+    }
+
+    .section-title {
+        font-size: 3.5rem;
+    }
+
+    .skills-container,
+    .portfolio-container,
+    .footer-content {
+        max-width: 2000px;
+    }
+
+    .portfolio-img {
+        height: 700px;
+    }
+
+    .portfolio-content h3 {
+        font-size: 3rem;
+    }
+
+    .portfolio-content p {
+        font-size: 1.5rem;
+    }
+}
 /* Large Tablet */
 @media (max-width: 1024px) {
     .hero {
