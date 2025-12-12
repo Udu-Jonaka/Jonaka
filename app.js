@@ -23,6 +23,16 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+// If files are in a public folder:
+app.get('/sitemap.xml', (req, res) => {
+  res.type('application/xml');
+  res.sendFile(__dirname + '/public/sitemap.xml');
+});
+
+app.get('/robots.txt', (req, res) => {
+  res.type('text/plain');
+  res.sendFile(__dirname + '/public/robots.txt');
+});
 
 // Start server
 app.listen(PORT, () => {
