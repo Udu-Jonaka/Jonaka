@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jonaka-seven.vercel.app/sitemap.xml
