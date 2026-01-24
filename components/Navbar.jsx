@@ -30,19 +30,29 @@ function Navbar() {
 
           <ul className={`nav-links ${isOpen ? "active" : ""}`} id="nav-links">
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/" onClick={() => setIsOpen(false)}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/about" onClick={() => setIsOpen(false)}>
+                About
+              </Link>
             </li>
             <li>
-              <Link href="/skills">Skills</Link>
+              <Link href="/skills" onClick={() => setIsOpen(false)}>
+                Skills
+              </Link>
             </li>
             <li>
-              <Link href="/projects">Portfolio</Link>
+              <Link href="/projects" onClick={() => setIsOpen(false)}>
+                Portfolio
+              </Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact" onClick={() => setIsOpen(false)}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
