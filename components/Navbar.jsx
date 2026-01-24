@@ -5,12 +5,12 @@ import Link from "next/link";
 // but we could import 'nav.css' if we moved it.
 // For now relying on global <link> in layout.
 
-const Navbar = () => {
+function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
+  function toggleMenu() {
     setIsOpen(!isOpen);
-  };
+  }
 
   return (
     <section id="navbar">
@@ -49,6 +49,6 @@ const Navbar = () => {
       </nav>
     </section>
   );
-};
+}
 
 export default Navbar;

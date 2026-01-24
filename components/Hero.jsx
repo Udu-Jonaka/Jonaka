@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Hero = () => {
+function Hero() {
   return (
     <section id="hero">
       <section className="hero" id="home">
@@ -18,6 +18,6 @@ const Hero = () => {
       </section>
     </section>
   );
-};
+}
 
 export default Hero;

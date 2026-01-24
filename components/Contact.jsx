@@ -1,10 +1,13 @@
-const Contact = () => {
+import { FaEnvelope, FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
+function Contact() {
   return (
     <section id="contact" className="contact-section">
       <h2>Contact</h2>
       <div className="contact-info">
         <div className="info-item">
-          <i className="fa-solid fa-envelope"></i>
+          <FaEnvelope />
           <div>
             <h3>
               <a href="mailto:udunnanna0@gmail.com">Email</a>
@@ -16,7 +19,7 @@ const Contact = () => {
         </div>
 
         <div className="info-item">
-          <i className="fa-brands fa-whatsapp"></i>
+          <FaWhatsapp />
           <div>
             <h3>
               <a href="https://wa.me/2347075878316" target="_blank">
@@ -32,7 +35,7 @@ const Contact = () => {
         </div>
 
         <div className="info-item">
-          <i className="fa-brands fa-instagram"></i>
+          <FaInstagram />
           <div>
             <h3>
               <a href="https://www.instagram.com/jhay.codes/" target="_blank">
@@ -47,8 +50,8 @@ const Contact = () => {
           </div>
         </div>
 
-        <div class="info-item">
-          <i class="fa-brands fa-twitter"></i>
+        <div className="info-item">
+          <FaXTwitter />
           <div>
             <h3>
               <a href="https://x.com/Jonaka_Udu" target="_blank">
@@ -65,6 +68,6 @@ const Contact = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Contact;

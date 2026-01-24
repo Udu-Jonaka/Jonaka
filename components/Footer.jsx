@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { FaGithub, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -39,28 +41,28 @@ const Footer = () => {
                   target="_blank"
                   aria-label="GitHub"
                 >
-                  <i className="fab fa-github"></i>
+                  <FaGithub />
                 </a>
                 <a
                   href="mailto:udunnanna0@gmail.com"
                   target="_blank"
                   aria-label="LinkedIn"
                 >
-                  <i className="fa-solid fa-envelope"></i>
+                  <FaEnvelope />
                 </a>
                 <a
                   href="https://x.com/Jonaka_Udu"
                   target="_blank"
                   aria-label="X"
                 >
-                  <i className="fab fa-twitter"></i>
+                  <FaXTwitter />
                 </a>
                 <a
                   href="https://www.instagram.com/jhay.codes/"
                   target="_blank"
                   aria-label="Instagram"
                 >
-                  <i class="fab fa-instagram"></i>
+                  <FaInstagram />
                 </a>
               </div>
             </div>
@@ -76,6 +78,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
