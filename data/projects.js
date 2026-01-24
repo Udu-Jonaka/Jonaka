@@ -10,6 +10,16 @@ export const projects = [
     },
   },
   {
+    title: "Jhay Codes Portfolio",
+    desc: "The personal portfolio website of Jonaka Udu (Jhay Codes), a full-stack developer. It showcases skills, projects, and contact information.",
+    img: "/images/og-graph.png",
+    tags: ["Next.js", "React", "Node.js", "CSS"],
+    links: {
+      live: "https://jhaycodes.vercel.app/",
+      code: "https://github.com/Udu-Jonaka/Jonaka",
+    },
+  },
+  {
     title: "Yvonne Kafor Coaching",
     desc: "Was part of a team to build a professional coaching website for divorce and custody mediation, offering strategic services to help clients navigate the legal process cost-effectively and with minimized stress.",
     img: "/images/yvonne-kafor-hero.png",
