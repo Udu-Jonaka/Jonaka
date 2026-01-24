@@ -1,5 +1,3 @@
-import About from "@/components/About";
-
 export const metadata = {
   title: "About Me - Jonaka Udu",
   description:
@@ -9,7 +7,25 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <main>
-      <About />
+      <section className="portfolio-section">
+        <div className="about">
+          <div className="about-text">
+            <h2 className="section-title">About Me</h2>
+            <p>
+              I’m Jonaka Udu (Jhay Codes), a growing software engineering
+              student and full-stack web developer who loves turning ideas into
+              fast, clean, and visually appealing digital experiences. I
+              specialize in building modern, responsive websites using both
+              frontend and backend technologies, and I’m constantly improving my
+              skills to deliver high-quality, production-ready solutions.
+              Whether it’s crafting smooth user interfaces or developing
+              powerful backend features, I’m passionate about creating real
+              value through code and helping businesses bring their ideas to
+              life.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

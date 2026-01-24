@@ -53,7 +53,10 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/CSS/nav.css" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable}`}
+        suppressHydrationWarning
+      >
         <Navbar />
         {children}
         <Footer />

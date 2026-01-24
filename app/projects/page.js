@@ -1,17 +1,8 @@
-// import Portfolio from "@/components/Portfolio";
-
 export const metadata = {
   title: "Portfolio - Jonaka Udu",
   description: "Check out my latest full-stack development projects.",
 };
 
-// export default function ProjectsPage() {
-//   return (
-//     <main>
-//       <Portfolio />
-//     </main>
-//   );
-// }
 import { projects } from "@/data/projects";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
@@ -20,7 +11,7 @@ export default function ProjectsPage() {
     <main>
       <section className="portfolio-section">
         <div className="portfolio-wrapper">
-          <h2 className="section-heading">My Projects</h2>
+          <h2 className="section-title">My Projects</h2>
 
           <div className="projects-grid">
             {projects.map((project, index) => (

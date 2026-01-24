@@ -3,9 +3,7 @@ function About() {
     <section id="about">
       <div className="about">
         <div className="about-text">
-          <div className="section-title">
-            <span>About Me</span>
-          </div>
+          <h2 className="section-title">About Me</h2>
           <p>
             I’m Jonaka Udu (Jhay Codes), a growing software engineering student
             and full-stack web developer who loves turning ideas into fast,

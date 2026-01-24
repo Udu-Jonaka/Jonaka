@@ -120,10 +120,6 @@
     padding: 100px 50px;
   }
 
-  .contact-section h2 {
-    font-size: 2.5rem;
-  }
-
   .info-item {
     max-width: 600px;
     padding: 20px 30px;
@@ -410,15 +406,15 @@
   }
 
   .section-title {
-    font-size: 1.5rem;
-    margin-bottom: 1.2rem;
-    padding-bottom: 12px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
   }
 
   .section-title::after {
     width: 60px;
     height: 3px;
-    margin-top: 8px;
+    margin-top: 10px;
   }
 
   .about-text p {
@@ -497,10 +493,6 @@
   }
 }
 @media (max-width: 768px) {
-  .section-title {
-    font-size: 2rem;
-  }
-
   .skills-grid {
     grid-template-columns: 1fr;
     gap: 20px;

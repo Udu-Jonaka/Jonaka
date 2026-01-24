@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 function Contact() {
   return (
     <section id="contact" className="contact-section">
-      <h2>Contact</h2>
+      <h2 className="section-title">Contact Me</h2>
       <div className="contact-info">
         <div className="info-item">
           <FaEnvelope />
