@@ -69,7 +69,7 @@ function Footer() {
           </div>
         </div>
 
-        <div class="footer-bottom">
+        <div className="footer-bottom">
           <p>
             &copy; {new Date().getFullYear()} Jonaka (Jhay Codes). All rights
             reserved.

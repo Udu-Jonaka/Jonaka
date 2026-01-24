@@ -75,8 +75,9 @@
   }
 
   /* Portfolio Section */
-  #portfolio {
-    padding: 100px 50px;
+  #portfolio,
+  .portfolio-section {
+    padding: 140px 50px;
   }
 
   .portfolio-container {
