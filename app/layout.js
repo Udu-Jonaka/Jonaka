@@ -17,17 +17,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://jonaka-seven.vercel.app/"),
   title: "Jonaka Udu(JhayCodes)",
-  description: "I'm Jonaka Udu (Jhay Codes), a Full-Stack Developer...",
+  description:
+    "I'm Jonaka Udu (Jhay Codes), a Full-Stack Developer and Software Engineering student specializing in Node.js, Express, MongoDB, and modern web solutions. Check out my portfolio projects like Delish and Nora Nova Energies.",
   keywords:
-    "Jonaka Udu, Jhay Codes, Full-Stack Developer, Software Engineer, Web Developer Nigeria",
+    "Jonaka Udu, Jhay Codes, Jonaka, Udu, Udu Jonaka Nnanna, Full-Stack Developer, Software Engineer, Web Developer Nigeria, Node.js, Express.js, MongoDB, Frontend Developer, Backend Developer, Portfolio",
+  authors: [{ name: "Jonaka Udu (Jhay Codes)" }],
+  robots: "index, follow",
+  verification: {
+    google: "QynKCI1qkUU-_GvhYD1Ry6uABbbXQwGqJvK9qcQ2VYg",
+  },
   openGraph: {
+    type: "website",
+    url: "https://jonaka-seven.vercel.app/",
     title: "Jonaka Udu (Jhay Codes) | Full-Stack Developer Portfolio",
     description:
-      "Building fast, clean, and visually appealing digital experiences.",
-    url: "https://jonaka-seven.vercel.app/",
-    type: "website",
+      "Building fast, clean, and visually appealing digital experiences. View my projects in Node.js, MongoDB, and modern frontend tech.",
     images: [{ url: "/images/og-graph.png" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jonaka Udu (Jhay Codes) | Full-Stack Developer",
+    description:
+      "Software Engineering student and Full-Stack Developer specializing in backend and frontend technologies.",
+    images: ["/images/og-graph.png"],
   },
   icons: {
     icon: [
@@ -52,6 +66,10 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/media-query/media-style.css" />
         <link rel="stylesheet" href="/CSS/nav.css" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
+        <meta
+          name="google-site-verification"
+          content="QynKCI1qkUU-_GvhYD1Ry6uABbbXQwGqJvK9qcQ2VYg"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable}`}

@@ -61,7 +61,7 @@ export default function ContactPage() {
             <div>
               <h3>
                 <a href="https://x.com/Jonaka_Udu" target="_blank">
-                  X (Formally Twitter)
+                  X
                 </a>
               </h3>
               <p>
