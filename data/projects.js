@@ -29,6 +29,16 @@ export const projects = [
     },
   },
   {
+    title: "ChatBox",
+    desc: "A real-time AI chatbox application designed for seamless communication. Built with modern web technologies, it features instant messaging and a responsive interface.",
+    img: "/images/chatbox.png",
+    tags: ["React", "Next.js", "Gemini API", "Axios"],
+    links: {
+      live: "https://jhay-chatbox.vercel.app/",
+      code: "https://github.com/Udu-Jonaka/ChatBox",
+    },
+  },
+  {
     title: "Nora Nova Energies",
     desc: "A corporate landing page website for Noranova Energy Services Limited — a Nigeria-owned oil & gas services company — showcasing their services, mission, and contact information in a clean, professional layout.",
     img: "/images/nesl.png",
