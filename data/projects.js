@@ -29,6 +29,16 @@ export const projects = [
     },
   },
   {
+    title: "Sélène Skincare",
+    desc: "A clean, sustainable skincare landing page showcasing natural beauty products with high ratings and customer testimonials.",
+    img: "/images/serene.png",
+    tags: ["Next.js", "React", "CSS", "Landing Page"],
+    links: {
+      live: "https://thee-serene.vercel.app/",
+      code: "https://github.com/Udu-Jonaka/serene",
+    },
+  },
+  {
     title: "ChatBox",
     desc: "A real-time AI chatbox application designed for seamless communication. Built with modern web technologies, it features instant messaging and a responsive interface.",
     img: "/images/chatbox.png",
