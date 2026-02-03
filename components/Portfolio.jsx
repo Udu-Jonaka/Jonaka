@@ -16,12 +16,16 @@ function Portfolio() {
   return (
     <section id="portfolio">
       <div className="portfolio-container">
-        <h2 className="section-title">My Portfolio</h2>
+        <h2 className="section-title" data-aos="fade-up">
+          My Projects
+        </h2>
 
         <div
           id="portfolioCarousel"
           className="carousel slide"
           data-bs-ride="carousel"
+          data-aos="zoom-in"
+          data-aos-delay="200"
         >
           <div className="carousel-indicators">
             {projects.map(function (_, idx) {

@@ -589,3 +589,81 @@
     font-size: 0.85rem;
   }
 }
+
+/* ========== Offers Section Responsive ========== */
+@media (max-width: 992px) {
+  .offers {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .offers.reverse {
+    flex-direction: column;
+  }
+
+  .offers-text,
+  .reverse-text {
+    padding: 0;
+  }
+
+  .offers-text p,
+  .reverse-text p {
+    text-align: center;
+  }
+
+  .offers-img img {
+    width: 80%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .offers {
+    padding: 20px 10px;
+  }
+  .offers-img img {
+    width: 100%;
+  }
+}
+
+/* ========== Stats Section Responsive ========== */
+@media (max-width: 900px) {
+  .stats-section {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 60px auto;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 40px auto;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .logos-track {
+    gap: 40px;
+  }
+}
+
+/* ========== Hero Section Responsive Tweaks ========== */
+@media (max-width: 480px) {
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    text-align: center;
+    max-width: 300px;
+  }
+}

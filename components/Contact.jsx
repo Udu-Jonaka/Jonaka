@@ -4,9 +4,11 @@ import { FaXTwitter } from "react-icons/fa6";
 function Contact() {
   return (
     <section id="contact" className="contact-section">
-      <h2 className="section-title">Contact Me</h2>
+      <h2 className="section-title" data-aos="fade-up">
+        Contact Me
+      </h2>
       <div className="contact-info">
-        <div className="info-item">
+        <div className="info-item" data-aos="fade-up" data-aos-delay="100">
           <FaEnvelope />
           <div>
             <h3>
@@ -18,7 +20,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="info-item">
+        <div className="info-item" data-aos="fade-up" data-aos-delay="200">
           <FaWhatsapp />
           <div>
             <h3>
@@ -34,7 +36,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="info-item">
+        <div className="info-item" data-aos="fade-up" data-aos-delay="300">
           <FaInstagram />
           <div>
             <h3>
@@ -50,7 +52,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="info-item">
+        <div className="info-item" data-aos="fade-up" data-aos-delay="400">
           <FaXTwitter />
           <div>
             <h3>

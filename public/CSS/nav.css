@@ -5,15 +5,16 @@
   left: 0;
   right: 0;
   width: 100%;
-  backdrop-filter: blur(10px);
-  background: #d8c9ff;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   z-index: 1000;
 }
 
 nav {
-  font-weight: bold;
+  font-weight: 600;
   padding: 15px 20px;
-  color: #4a2e7f;
+  color: var(--text-main);
 }
 
 .nav-container {
@@ -28,7 +29,7 @@ nav {
 .nav-logo {
   font-size: 1.8rem;
   font-family: "Dancing Script", cursive;
-  color: #2c1d50;
+  color: var(--primary-purple);
 }
 
 .nav-links {
@@ -48,7 +49,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #8c6bff;
+  color: var(--primary-purple);
 }
 
 /* ----------NAV TOGGLE BUTTON ---------- */
@@ -64,7 +65,7 @@ nav {
 .nav-toggle span {
   height: 3px;
   width: 100%;
-  background: #4a2e7f;
+  background: var(--text-main);
   border-radius: 2px;
   transition: all 0.3s ease;
 }
@@ -102,7 +103,7 @@ nav {
     left: 0;
     width: 0;
     height: 3px;
-    background: #8c6bff;
+    background: var(--primary-purple);
     transition: width 0.3s ease;
   }
 
@@ -168,7 +169,7 @@ nav {
   /* Smooth backdrop blur enhancement */
   #navbar {
     backdrop-filter: blur(15px);
-    box-shadow: 0 2px 10px rgba(74, 46, 127, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   }
 
   /* Add subtle animation on scroll (optional - requires JS) */
@@ -187,13 +188,13 @@ nav {
   }
 
   .nav-links a:hover {
-    color: #6b4bcc;
+    color: var(--primary-purple);
     transform: translateY(-2px);
   }
 
   /* Active link styling */
   .nav-links a.active {
-    color: #8c6bff;
+    color: var(--primary-purple);
     font-weight: 600;
   }
 }
@@ -209,8 +210,9 @@ nav {
     overflow: hidden;
     opacity: 0;
     transition: all 0.4s ease;
-    background-color: #cdb8ff;
+    background-color: var(--bg-white);
     z-index: 1000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .nav-links.active {

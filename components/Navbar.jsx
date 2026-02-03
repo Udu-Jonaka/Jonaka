@@ -46,7 +46,7 @@ function Navbar() {
             </li>
             <li>
               <Link href="/projects" onClick={() => setIsOpen(false)}>
-                Portfolio
+                Projects
               </Link>
             </li>
             <li>
