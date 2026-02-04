@@ -15,9 +15,9 @@ const ContactForm = () => {
     setStatus("");
 
     // REPLACE THESE WITH YOUR ACTUAL EMAILJS SERVICE ID, TEMPLATE ID, AND PUBLIC KEY
-    const SERVICE_ID = "YOUR_SERVICE_ID";
-    const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-    const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+    const SERVICE_ID = "service_v1gq9ol";
+    const TEMPLATE_ID = "template_va9ln2u";
+    const PUBLIC_KEY = "BXjMISiTQJJuCQkEA";
 
     emailjs
       .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, {
@@ -32,7 +32,15 @@ const ContactForm = () => {
         (error) => {
           setLoading(false);
           setStatus("error");
-          console.error("FAILED...", error.text);
+          console.error("FAILED...", error);
+          // Check if it's likely a network/adblocker issue
+          if (error.text === "Failed to fetch" || !error.text) {
+            alert(
+              "Failed to send: Network error. Please disable AdBlocker (uBlock, AdGuard, etc.) and try again, or check your internet connection.",
+            );
+          } else {
+            alert(`Failed to send: ${error.text}`);
+          }
         },
       );
   };

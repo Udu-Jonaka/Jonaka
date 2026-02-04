@@ -2,8 +2,8 @@ import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import Offers from "@/components/Offers";
 import Portfolio from "@/components/Portfolio";
-import Contact from "@/components/Contact";
 import AOSInit from "@/components/AOSInit";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Stats />
       <Offers />
       <Portfolio />
-      <Contact />
+      <ContactForm />
     </main>
   );
 }

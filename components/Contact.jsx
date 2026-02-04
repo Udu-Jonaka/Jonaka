@@ -1,6 +1,5 @@
 import { FaEnvelope, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
@@ -40,26 +39,6 @@ function Contact() {
             <p>
               <a href="https://wa.me/2347075878316" target="_blank">
                 Message me
-              </a>
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="info-item contact-card"
-          data-aos="fade-up"
-          data-aos-delay="300"
-        >
-          <FaInstagram />
-          <div>
-            <h3>
-              <a href="https://www.instagram.com/jhay.codes/" target="_blank">
-                Instagram
-              </a>
-            </h3>
-            <p>
-              <a href="https://www.instagram.com/jhay.codes/" target="_blank">
-                Connect with Me
               </a>
             </p>
           </div>

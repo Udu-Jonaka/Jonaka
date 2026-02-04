@@ -1,5 +1,6 @@
-import { FaEnvelope, FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
   title: "Contact Me - Jonaka Udu",
@@ -41,22 +42,6 @@ export default function ContactPage() {
           </div>
 
           <div className="info-item contact-card">
-            <FaInstagram />
-            <div>
-              <h3>
-                <a href="https://www.instagram.com/jhay.codes/" target="_blank">
-                  Instagram
-                </a>
-              </h3>
-              <p>
-                <a href="https://www.instagram.com/jhay.codes/" target="_blank">
-                  Connect with Me
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div className="info-item contact-card">
             <FaXTwitter />
             <div>
               <h3>
@@ -72,6 +57,7 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
+        <ContactForm />
       </section>
     </main>
   );

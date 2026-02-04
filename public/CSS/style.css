@@ -961,8 +961,8 @@ body.dark-mode .theme-toogle:hover {
 /* --- CONTACT FORM --- */
 .contact-form-container {
   max-width: 600px;
-  margin: 50px auto 0;
-  padding: 30px;
+  margin: 50px auto;
+  padding: 20px;
   background: var(--bg-white);
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -1073,4 +1073,36 @@ body.dark-mode .form-input:focus,
 body.dark-mode .form-textarea:focus {
   border-color: var(--accent-color);
   box-shadow: 0 0 0 3px rgba(187, 134, 252, 0.2);
+}
+
+/* --- CONTACT FORM RESPONSIVE --- */
+@media (max-width: 768px) {
+  .contact-form-container {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-container {
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 20px 15px;
+    border-radius: 15px;
+  }
+
+  .form-title {
+    font-size: 1.3rem;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 0.95rem;
+    padding: 10px 12px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
 }
