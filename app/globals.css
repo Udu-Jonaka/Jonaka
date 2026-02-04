@@ -14,3 +14,137 @@ body {
   --bg-off-white: #f9fafb;
   --max-width: 1100px;
 }
+/* --- DARK MODE VARIABLES --- */
+body.dark-mode {
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e; /* For cards/sections */
+  --text-primary: #ffffff;
+  --text-secondary: #b3b3b3;
+  --accent-color: #bb86fc; /* Lighter purple for dark mode */
+  --border-color: #2d2d2d;
+}
+
+/* --- GLOBAL STYLES --- */
+body.dark-mode {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* --- TYPOGRAPHY --- */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode strong {
+  color: var(--text-primary) !important;
+}
+
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode li {
+  color: var(--text-secondary);
+}
+
+/* --- BOOTSTRAP CARD OVERRIDES --- */
+body.dark-mode .card {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Darker shadow */
+}
+
+/* --- CONTACT SECTION BUTTONS --- */
+/* Targeting those white contact strips (Email, WhatsApp, etc.) */
+body.dark-mode .contact-card, /* Add this class to your contact divs */
+body.dark-mode .bg-white {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+/* --- PROJECT CARDS --- */
+body.dark-mode .project-card-bottom {
+  background-color: var(--bg-secondary) !important;
+}
+
+/* --- SPECIFIC FIXES --- */
+/* The "Tech Stack" bar might need a border to separate it */
+body.dark-mode .tech-stack-section {
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Illustrations: If they are transparent PNGs, they work fine. 
+   If they have white backgrounds, add this filter to invert them lightly 
+   (experimental): */
+body.dark-mode img.illustration {
+  filter: brightness(0.8) contrast(1.2);
+}
+
+/* --- SKILLS & PROJECTS DARK MODE --- */
+body.dark-mode .skill-category {
+  background-color: var(--bg-secondary);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .skill-category h3 {
+  color: var(--accent-color);
+}
+
+body.dark-mode .skill-item {
+  background-color: var(--border-color);
+}
+
+body.dark-mode .skill-item span {
+  color: var(--text-secondary);
+}
+
+body.dark-mode .skill-item:hover {
+  background-color: var(--accent-color);
+}
+
+body.dark-mode .skill-item:hover span,
+body.dark-mode .skill-item:hover svg {
+  color: #121212 !important;
+}
+
+body.dark-mode .project-card {
+  background-color: var(--bg-secondary);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .project-title {
+  color: var(--accent-color);
+}
+
+body.dark-mode .project-description {
+  color: var(--text-secondary);
+}
+
+body.dark-mode .technology-tag {
+  background-color: var(--border-color);
+  color: var(--accent-color);
+}
+
+body.dark-mode .action-button-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #121212;
+}
+
+body.dark-mode .action-button-primary:hover {
+  opacity: 0.9;
+}
+
+body.dark-mode .action-button-secondary {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+body.dark-mode .action-button-secondary:hover {
+  background-color: var(--accent-color);
+  color: #121212;
+}

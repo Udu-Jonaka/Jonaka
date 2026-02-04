@@ -12,7 +12,7 @@ export default function ContactPage() {
       <section id="contact" className="portfolio-section">
         <h2 className="section-title">Contact Me</h2>
         <div className="contact-info">
-          <div className="info-item">
+          <div className="info-item contact-card">
             <FaEnvelope />
             <div>
               <h3>
@@ -24,7 +24,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="info-item">
+          <div className="info-item contact-card">
             <FaWhatsapp />
             <div>
               <h3>
@@ -40,7 +40,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="info-item">
+          <div className="info-item contact-card">
             <FaInstagram />
             <div>
               <h3>
@@ -56,7 +56,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="info-item">
+          <div className="info-item contact-card">
             <FaXTwitter />
             <div>
               <h3>

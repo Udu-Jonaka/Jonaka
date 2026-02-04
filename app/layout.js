@@ -5,6 +5,7 @@ import "./globals.css";
 // We will clear globals.css content later to avoid Next.js default styles interfering.
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -75,9 +76,26 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable}`}
         suppressHydrationWarning
       >
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  const savedTheme = localStorage.getItem('theme');
+                  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                  
+                  if (savedTheme === 'dark' || (!savedTheme && systemDark)) {
+                    document.body.classList.add('dark-mode');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
         <Navbar />
         {children}
         <Footer />
+        <ThemeToggle />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
       </body>
     </html>

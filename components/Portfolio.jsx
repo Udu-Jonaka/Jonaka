@@ -50,7 +50,7 @@ function Portfolio() {
                   className={`carousel-item ${idx === 0 ? "active" : ""}`}
                   key={idx}
                 >
-                  <div className="portfolio-card">
+                  <div className="portfolio-card card">
                     <img
                       src={project.img}
                       alt={project.title}

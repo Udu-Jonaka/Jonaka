@@ -1,5 +1,6 @@
 import { FaEnvelope, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
@@ -8,7 +9,11 @@ function Contact() {
         Contact Me
       </h2>
       <div className="contact-info">
-        <div className="info-item" data-aos="fade-up" data-aos-delay="100">
+        <div
+          className="info-item contact-card"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <FaEnvelope />
           <div>
             <h3>
@@ -20,7 +25,11 @@ function Contact() {
           </div>
         </div>
 
-        <div className="info-item" data-aos="fade-up" data-aos-delay="200">
+        <div
+          className="info-item contact-card"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <FaWhatsapp />
           <div>
             <h3>
@@ -36,7 +45,11 @@ function Contact() {
           </div>
         </div>
 
-        <div className="info-item" data-aos="fade-up" data-aos-delay="300">
+        <div
+          className="info-item contact-card"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <FaInstagram />
           <div>
             <h3>
@@ -52,7 +65,11 @@ function Contact() {
           </div>
         </div>
 
-        <div className="info-item" data-aos="fade-up" data-aos-delay="400">
+        <div
+          className="info-item contact-card"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
           <FaXTwitter />
           <div>
             <h3>

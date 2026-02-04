@@ -243,3 +243,28 @@ nav {
     transform: rotate(-45deg) translateY(-8px);
   }
 }
+
+/* --- NAVBAR DARK MODE --- */
+body.dark-mode #navbar {
+  background: rgba(18, 18, 18, 0.95);
+  border-bottom: 1px solid var(--border-color);
+}
+
+body.dark-mode .nav-logo {
+  color: var(--primary-purple); /* Or keep it as is if it looks good */
+}
+
+body.dark-mode .nav-links {
+  color: var(--text-primary);
+}
+
+body.dark-mode .nav-toggle span {
+  background: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  body.dark-mode .nav-links {
+    background-color: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+  }
+}

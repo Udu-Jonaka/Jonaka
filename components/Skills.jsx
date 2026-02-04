@@ -89,7 +89,7 @@ function Skills() {
                 </h3>
                 {category.skills.map(function (skill, sIdx) {
                   return (
-                    <div className="skill-item" key={sIdx}>
+                    <div className="skill-item contact-card" key={sIdx}>
                       {skill.icon}
                       <span>{skill.name}</span>
                     </div>
