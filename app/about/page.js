@@ -7,10 +7,16 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <main>
+      <section id="head" className="head" data-aos="fade-in">
+        <div className="head-content">
+          <h2 className="section-title" data-aos="fade-up" data-aos-delay="200">
+            About Me
+          </h2>
+        </div>
+      </section>
       <section className="portfolio-section">
         <div className="about">
           <div className="about-text">
-            <h2 className="section-title">About Me</h2>
             <p>
               I’m Jonaka Udu (Jhay Codes), a growing software engineering
               student and full-stack web developer who loves turning ideas into

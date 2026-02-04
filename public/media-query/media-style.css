@@ -21,7 +21,7 @@
 
   /* About Section */
   #about {
-    padding: 100px 50px;
+    padding: 0 50px;
   }
 
   .about {
@@ -46,7 +46,7 @@
 
   /* Skills Section */
   #skills {
-    padding: 100px 50px;
+    padding: 0 50px;
   }
 
   .skills-container {
@@ -77,7 +77,7 @@
   /* Portfolio Section */
   #portfolio,
   .portfolio-section {
-    padding: 140px 50px;
+    padding: 0 50px 140px;
   }
 
   .portfolio-container {

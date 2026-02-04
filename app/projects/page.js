@@ -9,10 +9,15 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 export default function ProjectsPage() {
   return (
     <main>
+      <section id="head" className="head" data-aos="fade-in">
+        <div className="head-content">
+          <h2 className="section-title" data-aos="fade-up" data-aos-delay="200">
+            My Projects
+          </h2>
+        </div>
+      </section>
       <section className="portfolio-section">
         <div className="portfolio-wrapper">
-          <h2 className="section-title">My Projects</h2>
-
           <div className="projects-grid">
             {projects.map((project, index) => (
               <div key={index} className="project-card">

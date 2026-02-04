@@ -82,10 +82,15 @@ export default function SkillsPage() {
 
   return (
     <main>
+      <section id="head" className="head" data-aos="fade-in">
+        <div className="head-content">
+          <h2 className="section-title" data-aos="fade-up" data-aos-delay="200">
+            My Skills
+          </h2>
+        </div>
+      </section>
       <section className="portfolio-section">
         <div className="skills-container">
-          <h2 className="section-title">My Skills</h2>
-
           <div className="skills-grid">
             {categories.map(function (category, idx) {
               return (

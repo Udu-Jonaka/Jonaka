@@ -625,7 +625,7 @@ body.dark-mode .btn-secondary:hover {
 
 /* ========== Portfolio Section ========== */
 .portfolio-section {
-  padding: 120px 20px 80px;
+  padding: 0 20px 80px;
 }
 
 .portfolio-wrapper {
@@ -752,7 +752,7 @@ body.dark-mode .btn-secondary:hover {
 
 @media (max-width: 768px) {
   .portfolio-section {
-    padding: 100px 15px 60px;
+    padding: 0 15px 60px;
   }
 
   .section-heading {
@@ -785,7 +785,7 @@ body.dark-mode .btn-secondary:hover {
 
 @media (max-width: 480px) {
   .portfolio-section {
-    padding: 90px 10px 40px;
+    padding: 0 10px 40px;
   }
 
   .section-heading {
@@ -1104,5 +1104,59 @@ body.dark-mode .form-textarea:focus {
 
   .submit-btn {
     width: 100%;
+  }
+}
+/* ========== Head Section ========== */
+.head {
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), #f4f5f1),
+    url("/images/home.png") no-repeat center center/cover;
+  color: white;
+  min-height: 400px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.dark-mode .head {
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), #121212),
+    url("/images/home-dark.png") no-repeat center center/cover;
+}
+
+.head-content {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding: 40px 20px;
+}
+
+.head .section-title {
+  margin-top: 150px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.head h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

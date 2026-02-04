@@ -10,8 +10,14 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <main>
+      <section id="head" className="head" data-aos="fade-in">
+        <div className="head-content">
+          <h2 className="section-title" data-aos="fade-up" data-aos-delay="200">
+            Contact Me
+          </h2>
+        </div>
+      </section>
       <section id="contact" className="portfolio-section">
-        <h2 className="section-title">Contact Me</h2>
         <div className="contact-info">
           <div className="info-item contact-card">
             <FaEnvelope />
