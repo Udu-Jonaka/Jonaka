@@ -57,13 +57,6 @@ function Footer() {
                 >
                   <FaXTwitter />
                 </a>
-                <a
-                  href="https://www.instagram.com/jhay.codes/"
-                  target="_blank"
-                  aria-label="Instagram"
-                >
-                  <FaInstagram />
-                </a>
               </div>
             </div>
           </div>
