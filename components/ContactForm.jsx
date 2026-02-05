@@ -14,7 +14,6 @@ const ContactForm = () => {
     setLoading(true);
     setStatus("");
 
-    // REPLACE THESE WITH YOUR ACTUAL EMAILJS SERVICE ID, TEMPLATE ID, AND PUBLIC KEY
     const SERVICE_ID = "service_v1gq9ol";
     const TEMPLATE_ID = "template_va9ln2u";
     const PUBLIC_KEY = "BXjMISiTQJJuCQkEA";

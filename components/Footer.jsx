@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-top">
           <div className="footer-brand">
             <h3>
-              Jonaka <span>(Jhay Codes)</span>
+              Jonaka <span>(Jhay)</span>
             </h3>
             <p>Full-Stack Developer crafting digital experiences</p>
           </div>
@@ -64,7 +64,7 @@ function Footer() {
 
         <div className="footer-bottom">
           <p>
-            &copy; {new Date().getFullYear()} Jonaka (Jhay Codes). All rights
+            &copy; {new Date().getFullYear()} Jonaka (Jhay). All rights
             reserved.
           </p>
         </div>

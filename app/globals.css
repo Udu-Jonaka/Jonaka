@@ -59,7 +59,7 @@ body.dark-mode .card {
 
 /* --- CONTACT SECTION BUTTONS --- */
 /* Targeting those white contact strips (Email, WhatsApp, etc.) */
-body.dark-mode .contact-card, /* Add this class to your contact divs */
+body.dark-mode .contact-card,
 body.dark-mode .bg-white {
   background-color: var(--bg-secondary) !important;
   color: var(--text-primary) !important;
