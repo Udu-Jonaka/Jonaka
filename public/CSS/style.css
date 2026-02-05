@@ -1123,7 +1123,7 @@ body.dark-mode .form-textarea:focus {
 
 body.dark-mode .head {
   background:
-    linear-gradient(to right, rgba(109, 40, 217, 0.7), rgba(76, 29, 149, 0.8)),
+    linear-gradient(to bottom, rgba(18, 18, 18, 0) 0%, #121212 100%),
     url("/images/head-dark.png") no-repeat center center/cover;
 }
 
