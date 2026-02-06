@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     title: "Jhay Codes Portfolio",
-    desc: "The personal portfolio website of Jonaka Udu (Jhay Codes), a full-stack developer. It showcases skills, projects, and contact information.",
+    desc: "The personal portfolio website of Jonaka Udu (Jhay), a full-stack developer. It showcases skills, projects, and contact information.",
     img: "/images/og-graph.png",
     tags: ["Next.js", "React", "Node.js", "CSS"],
     links: {
@@ -50,12 +50,22 @@ export const projects = [
   },
   {
     title: "Nora Nova Energies",
-    desc: "A corporate landing page website for Noranova Energy Services Limited — a Nigeria-owned oil & gas services company — showcasing their services, mission, and contact information in a clean, professional layout.",
+    desc: "A corporate landing page website for Noranova Energy Services Limited, a Nigeria-owned oil & gas services company, showcasing their services, mission, and contact information in a clean, professional layout.",
     img: "/images/nesl.png",
     tags: ["JavaScript", "Express", "EJS", "jQuery"],
     links: {
       live: "https://nesl.vercel.app/",
       code: "https://github.com/Udu-Jonaka/NESL",
+    },
+  },
+  {
+    title: "Kalender",
+    desc: "A landing page for a productivity tool designed to help you schedule, manage, and run meetings efficiently by handling time zones automatically and organizing your day with smart color-coded time blocks.",
+    img: "/images/kalender.png",
+    tags: ["Next.js", "React", "JavaScript", "CSS"],
+    links: {
+      live: "https://kalender-sooty.vercel.app/",
+      code: "https://github.com/Udu-Jonaka/kalender",
     },
   },
   {
