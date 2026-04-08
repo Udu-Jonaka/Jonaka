@@ -10,6 +10,15 @@ export const projects = [
     },
   },
   {
+    title: "OBO Gadgets",
+    desc: "A premium tech store offering an authentic and fine selection of gadgets and iPhones tailored to your taste.",
+    img: "/images/obo-gadgets.png",
+    tags: ["Next.js", "React", "Tailwind", "MongoDB"],
+    links: {
+      live: "https://obo-gadgets.vercel.app/",
+    },
+  },
+  {
     title: "Jhay Codes Portfolio",
     desc: "The personal portfolio website of Jonaka Udu (Jhay), a full-stack developer. It showcases skills, projects, and contact information.",
     img: "/images/og-graph.png",
