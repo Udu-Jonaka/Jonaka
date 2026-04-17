@@ -10,6 +10,16 @@ export const projects = [
     },
   },
   {
+    title: "PDFSlice",
+    desc: "This is a privacy-first, web application that instantly distills PDFs and raw text into clear summaries, key highlights, hidden red flags, and actionable steps",
+    img: "/images/pdfslice.png",
+    tags: ["Next.js", "React", "CSS", "Groq API"],
+    links: {
+      live: "https://pdfslice.vercel.app/",
+      code: "https://github.com/Udu-Jonaka/pdf-slice",
+    },
+  },
+  {
     title: "OBO Gadgets",
     desc: "A premium tech store offering an authentic and fine selection of gadgets and iPhones tailored to your taste.",
     img: "/images/obo-gadgets.png",
