@@ -1,5 +1,5 @@
 "use client";
-import { SiNextdotjs, SiBootstrap, SiMongodb, SiVercel } from "react-icons/si";
+import { SiNextdotjs, SiBootstrap, SiMongodb, SiVercel, SiExpo } from "react-icons/si";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import CountUp from "react-countup";
 
@@ -29,6 +29,9 @@ function Stats() {
             <div className="logo-item">
               <SiVercel /> <span>Vercel</span>
             </div>
+            <div className="logo-item">
+              <SiExpo /> <span>Expo</span>
+            </div>
 
             {/* Duplicate Set for Infinite Scroll */}
             <div className="logo-item">
@@ -48,6 +51,9 @@ function Stats() {
             </div>
             <div className="logo-item">
               <SiVercel /> <span>Vercel</span>
+            </div>
+            <div className="logo-item">
+              <SiExpo /> <span>Expo</span>
             </div>
           </div>
         </div>

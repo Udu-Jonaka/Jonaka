@@ -15,7 +15,7 @@ function Hero() {
 
       <p data-aos="fade-up" data-aos-delay="300">
         I'm Jonaka (Jhay), a Full Stack Developer. I turn complex problems into
-        clean, scalable web applications using Next.js and Node.
+        clean, scalable web and mobile applications.
       </p>
 
       <div className="hero-buttons" data-aos="fade-up" data-aos-delay="400">

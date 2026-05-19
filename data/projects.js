@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "FlashDeck",
+    desc: "An AI-powered flashcard app that helps you create, organize, and study flashcards using built-in spaced repetition. Turn your notes, PDFs, or topics into smart flashcards instantly.",
+    img: "https://flashdeck-web.vercel.app/open-graph.png",
+    tags: ["Expo", "React Native", "CSS", "Groq API"],
+    links: {
+      live: "https://flashdeck-web.vercel.app/",
+    },
+  },
+  {
     title: "Delish",
     desc: "Delish is a modern food-ordering web app that lets users browse meals, view details, and place orders through a smooth, responsive interface.",
     img: "/images/delish.png",
@@ -61,7 +70,7 @@ export const projects = [
     title: "ChatBox",
     desc: "A real-time AI chatbox application designed for seamless communication. Built with modern web technologies, it features instant messaging and a responsive interface.",
     img: "/images/chatbox.png",
-    tags: ["React", "Next.js", "Gemini API", "Axios"],
+    tags: ["React", "Next.js", "Groq API", "Axios"],
     links: {
       live: "https://jhay-chatbox.vercel.app/",
       code: "https://github.com/Udu-Jonaka/ChatBox",

@@ -19,15 +19,15 @@ export default function AboutPage() {
           <div className="about-text">
             <p>
               I’m Jonaka Udu (Jhay Codes), a growing software engineering
-              student and full-stack web developer who loves turning ideas into
+              student and full-stack developer who loves turning ideas into
               fast, clean, and visually appealing digital experiences. I
-              specialize in building modern, responsive websites using both
-              frontend and backend technologies, and I’m constantly improving my
-              skills to deliver high-quality, production-ready solutions.
-              Whether it’s crafting smooth user interfaces or developing
-              powerful backend features, I’m passionate about creating real
-              value through code and helping businesses bring their ideas to
-              life.
+              specialize in building modern, responsive websites and mobile
+              applications using both frontend and backend technologies, and I’m
+              constantly improving my skills to deliver high-quality,
+              production-ready solutions. Whether it’s crafting smooth user
+              interfaces or developing powerful backend features, I’m passionate
+              about creating real value through code and helping businesses
+              bring their ideas to life.
             </p>
           </div>
         </div>
