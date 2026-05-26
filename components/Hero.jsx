@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className="hero" data-aos="fade-in">
       <div className="badge" data-aos="fade-down" data-aos-delay="100">
-        <div className="status-dot"></div>
+        {/* <div className="status-dot"></div> */}
         Available for new projects
       </div>
 
