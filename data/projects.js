@@ -9,6 +9,15 @@ export const projects = [
     },
   },
   {
+    title: "MacroLens",
+    desc: "A premium, AI-powered metabolic health tracker that beautifully integrates effortless macro logging, intermittent fasting, and habit gamification into a sleek, earthy minimalist dashboard",
+    img: "https://macrolens-web.vercel.app/open-graph.png",
+    tags: ["Expo", "React Native", "CSS", "Gemini API"],
+    links: {
+      live: "https://macrolens-web.vercel.app/",
+    },
+  },
+  {
     title: "Delish",
     desc: "Delish is a modern food-ordering web app that lets users browse meals, view details, and place orders through a smooth, responsive interface.",
     img: "/images/delish.png",
