@@ -22,13 +22,15 @@ function Hero() {
         <Link href="/projects" className="btn-primary">
           View My Work
         </Link>
-        <Link
-          href="https://github.com/Udu-Jonaka"
+        <a
+          href="/docs/Udu-Jonaka-resume.pdf"
+          download
           target="_blank"
+          rel="noopener noreferrer"
           className="btn-secondary"
         >
-          Github Profile →
-        </Link>
+          Download CV →
+        </a>
       </div>
     </section>
   );
