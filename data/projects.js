@@ -6,6 +6,7 @@ export const projects = [
     tags: ["Expo", "React Native", "CSS", "Groq API"],
     links: {
       live: "https://flashdeck-web.vercel.app/",
+      code: "https://github.com/Udu-Jonaka/flashdeck-web",
     },
   },
   {
@@ -15,6 +16,7 @@ export const projects = [
     tags: ["Expo", "React Native", "CSS", "Gemini API"],
     links: {
       live: "https://macrolens-web.vercel.app/",
+      code: "https://github.com/Udu-Jonaka/macrolens-web",
     },
   },
   {

@@ -33,7 +33,14 @@ export const metadata = {
     title: "Jonaka Udu (Jhay) | Full-Stack Developer Portfolio",
     description:
       "Building fast, clean, and visually appealing digital experiences. View my projects in Node.js, MongoDB, and modern frontend tech.",
-    images: [{ url: "/images/og-graph.png" }],
+    images: [
+      {
+        url: "/images/og-graph.png",
+        width: 1200,
+        height: 630,
+        alt: "Portfolio Preview",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
