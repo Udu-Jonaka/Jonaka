@@ -19,16 +19,16 @@ function Footer() {
               <h4>Quick Links</h4>
               <ul>
                 <li>
-                  <Link href="/">Home</Link>
+                  <Link href="/" className="link-hover">Home</Link>
                 </li>
                 <li>
-                  <Link href="/about">About</Link>
+                  <Link href="/about" className="link-hover">About</Link>
                 </li>
                 <li>
-                  <Link href="/skills">Skills</Link>
+                  <Link href="/skills" className="link-hover">Skills</Link>
                 </li>
                 <li>
-                  <Link href="/projects">Portfolio</Link>
+                  <Link href="/projects" className="link-hover">Portfolio</Link>
                 </li>
               </ul>
             </div>

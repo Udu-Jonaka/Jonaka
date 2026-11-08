@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className="hero" data-aos="fade-in">
       <div className="badge" data-aos="fade-down" data-aos-delay="100">
-        {/* <div className="status-dot"></div> */}
+        <div className="status-dot"></div>
         Available for new projects
       </div>
 
@@ -19,7 +19,7 @@ function Hero() {
       </p>
 
       <div className="hero-buttons" data-aos="fade-up" data-aos-delay="400">
-        <Link href="/projects" className="btn-primary">
+        <Link href="/projects" className="btn-primary link-hover">
           View My Work
         </Link>
         <a
@@ -27,10 +27,15 @@ function Hero() {
           download
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-secondary"
+          className="btn-secondary link-hover"
         >
           Download CV →
         </a>
+      </div>
+
+      <div className="scroll-indicator-container" data-aos="fade-up" data-aos-delay="500">
+        <span className="scroll-bar-pill"></span>
+        <span>Scroll to Explore</span>
       </div>
     </section>
   );
