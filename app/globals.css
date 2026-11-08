@@ -167,7 +167,7 @@ body.dark-mode .action-button-secondary:hover {
 
 @media (any-pointer: fine) {
   .link-hover::after {
-    content: '';
+    content: "";
     background: currentColor;
     bottom: 0;
     height: 1.5px;
@@ -181,58 +181,6 @@ body.dark-mode .action-button-secondary:hover {
   .link-hover:hover::after {
     transform: scaleX(1);
     transform-origin: left center;
-  }
-}
-
-/* ========================================
-   EDITORIAL SCROLL INDICATOR
-   ======================================== */
-.scroll-indicator-container {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 0.8rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  font-weight: 600;
-  margin-top: 2.5rem;
-}
-
-.scroll-bar-pill {
-  width: 20px;
-  height: 34px;
-  border: 1.5px solid currentColor;
-  border-radius: 20px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  opacity: 0.75;
-}
-
-.scroll-bar-pill::after {
-  content: '';
-  width: 3px;
-  height: 7px;
-  background-color: currentColor;
-  border-radius: 2px;
-  position: absolute;
-  top: 6px;
-  animation: scrollWheel 2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-}
-
-@keyframes scrollWheel {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  60% {
-    transform: translateY(12px);
-    opacity: 0.15;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 0;
   }
 }
 
@@ -337,7 +285,10 @@ body.dark-mode .portfolio-main-subtitle {
   background-color: #121212;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(0, 0, 0, 0.06);
-  transition: transform 0.6s var(--transition-smooth), box-shadow 0.6s var(--transition-smooth), border-color 0.3s ease;
+  transition:
+    transform 0.6s var(--transition-smooth),
+    box-shadow 0.6s var(--transition-smooth),
+    border-color 0.3s ease;
 }
 
 body.dark-mode .project-preview-wrap {
@@ -400,7 +351,12 @@ body.dark-mode .portfolio-project-item:hover .project-preview-wrap {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.15) 50%, transparent 100%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.15) 50%,
+    transparent 100%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -431,7 +387,10 @@ body.dark-mode .portfolio-project-item:hover .project-preview-wrap {
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none !important;
-  transition: transform 0.25s var(--transition-smooth), background 0.2s ease, color 0.2s ease;
+  transition:
+    transform 0.25s var(--transition-smooth),
+    background 0.2s ease,
+    color 0.2s ease;
   transform: translateY(6px);
 }
 
@@ -535,5 +494,3 @@ body.dark-mode .project-link-cta {
 .portfolio-more-cta {
   text-align: center;
 }
-
-

@@ -32,11 +32,6 @@ function Hero() {
           Download CV →
         </a>
       </div>
-
-      <div className="scroll-indicator-container" data-aos="fade-up" data-aos-delay="500">
-        <span className="scroll-bar-pill"></span>
-        <span>Scroll to Explore</span>
-      </div>
     </section>
   );
 }
