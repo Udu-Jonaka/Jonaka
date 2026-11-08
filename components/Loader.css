@@ -1,5 +1,5 @@
 /* ========================================
-   FONT-MORPHING "J" & NAVBAR TRANSITION
+   FANCY & FUNNY FONT-MORPHING "J"
    ======================================== */
 .loader-overlay {
   position: fixed;
@@ -29,14 +29,14 @@ body.dark-mode .loader-overlay {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   position: relative;
 }
 
 .loader-morph-letter {
   display: inline-block;
-  font-size: 7.5rem;
+  font-size: 8rem;
   line-height: 1;
   color: var(--primary-purple, #6d28d9);
   user-select: none;
@@ -47,6 +47,12 @@ body.dark-mode .loader-overlay {
 
 body.dark-mode .loader-morph-letter {
   color: var(--accent-color, #bb86fc);
+}
+
+/* Morphing state: applies the quirky tilt / scale of the fancy font */
+.loader-morph-letter.is-morphing {
+  transform: var(--font-transform, none);
+  transition: none; /* instant switch per font tick */
 }
 
 /* Flight state: flies to the exact coordinates of the navbar 'J' */
