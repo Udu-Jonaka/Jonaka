@@ -35,6 +35,7 @@ export const metadata = {
         url: "/images/og-graph.png",
         width: 1200,
         height: 630,
+        type: "image/png",
         alt: "Portfolio Preview",
       },
     ],
